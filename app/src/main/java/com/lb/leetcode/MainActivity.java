@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void registerButton() {
         List<Integer> buttons = new ArrayList<>();
         buttons.add(R.id.leetcode1004);
+        buttons.add(R.id.leetcode697);
         StaticFun.buttonRegister(buttons,this,this);
     }
 
@@ -31,6 +32,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
             case R.id.leetcode1004:
                 quesNumber = 1004;
+                break;
+            case R.id.leetcode697:
+                quesNumber = 697;
                 break;
         }
         intent.putExtra("quesNumber",quesNumber);

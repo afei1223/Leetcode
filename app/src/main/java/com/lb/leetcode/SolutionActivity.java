@@ -45,6 +45,9 @@ public class SolutionActivity extends Activity implements View.OnClickListener {
                     Solution1004 solution1004 = new Solution1004();
                     s += solution1004.solution(e,e1,this);
 //                    s += solution1004.longestOnes(a,k);
+                case 697:
+                    Solution697 solution697 = new Solution697();
+                    s += solution697.solution(e,this);
             }
             res.setText(s);
         }

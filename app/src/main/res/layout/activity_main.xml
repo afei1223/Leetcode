@@ -14,13 +14,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <Button
-                android:text="1004"
-                android:id="@+id/leetcode1004"
+                android:text="697"
+                android:id="@+id/leetcode697"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <Button
-                android:text="1005"
-                android:id="@+id/leetcode1005"
+                android:text="1004"
+                android:id="@+id/leetcode1004"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
