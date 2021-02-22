@@ -44,10 +44,21 @@ public class SolutionActivity extends Activity implements View.OnClickListener {
                 case 1004:
                     Solution1004 solution1004 = new Solution1004();
                     s += solution1004.solution(e,e1,this);
+                    break;
 //                    s += solution1004.longestOnes(a,k);
                 case 697:
                     Solution697 solution697 = new Solution697();
                     s += solution697.solution(e,this);
+                    break;
+                case 1438:
+                    Solution1438 solution1438 = new Solution1438();
+                    s += solution1438.solution(e,e1,this);
+                    break;
+                case 766:
+                    Solution766 solution766 = new Solution766();
+                    int [][] matrix = {{1,2,3},{4,1,2},{5,4,1}};
+                    s += solution766.isToeplitzMatrix(matrix);
+                    break;
             }
             res.setText(s);
         }

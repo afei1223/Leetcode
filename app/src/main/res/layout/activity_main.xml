@@ -19,8 +19,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <Button
+                android:text="766"
+                android:id="@+id/leetcode766"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
                 android:text="1004"
                 android:id="@+id/leetcode1004"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:text="1438"
+                android:id="@+id/leetcode1438"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
