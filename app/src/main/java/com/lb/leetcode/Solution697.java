@@ -17,7 +17,7 @@ import java.util.Map;
  */
 
 /**
- *
+ * 数组的度
  * leetcode 695
  * https://leetcode-cn.com/problems/degree-of-an-array/
  *

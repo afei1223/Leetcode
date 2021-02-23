@@ -15,6 +15,7 @@ public class SolutionActivity extends Activity implements View.OnClickListener {
 
     EditText editText;
     EditText editText1;
+    EditText editText2;
     Button submit;
     TextView res;
     int quesNumber;
@@ -30,6 +31,7 @@ public class SolutionActivity extends Activity implements View.OnClickListener {
     private void registerView() {
         editText = findViewById(R.id.edit_text);
         editText1 = findViewById(R.id.edit_text1);
+        editText2 = findViewById(R.id.edit_text2);
         submit = StaticFun.buttonRegister(R.id.submit,this,this);
         res = findViewById(R.id.res);
     }
@@ -39,6 +41,7 @@ public class SolutionActivity extends Activity implements View.OnClickListener {
         if(v.getId() == R.id.submit){
             String e = editText.getText().toString();
             String e1 = editText1.getText().toString();
+            String e2 = editText2.getText().toString();
             String s = "";
             switch (quesNumber){
                 case 1004:
@@ -59,6 +62,9 @@ public class SolutionActivity extends Activity implements View.OnClickListener {
                     int [][] matrix = {{1,2,3},{4,1,2},{5,4,1}};
                     s += solution766.isToeplitzMatrix(matrix);
                     break;
+                case 1052:
+                    Solution1052 solution1052 = new Solution1052();
+                    s += solution1052.solution(e,e1,e2,this);
             }
             res.setText(s);
         }

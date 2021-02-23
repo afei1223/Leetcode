@@ -33,6 +33,11 @@
                 android:id="@+id/leetcode1438"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
+            <Button
+                android:text="1052"
+                android:id="@+id/leetcode1052"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
         </LinearLayout>
 
     </ScrollView>
