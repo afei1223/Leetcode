@@ -83,4 +83,6 @@ MainActivity是显示按钮的页面，每一个按钮对应一道题。点击�
 ```
 
 ### 其他
-* 766 托普利茨矩阵
+* 766 [托普利茨矩阵](https://leetcode-cn.com/problems/toeplitz-matrix/)
+* 832 [反转图像]( https://leetcode-cn.com/problems/flipping-an-image/)
+* 867 [转置矩阵]( https://leetcode-cn.com/problems/transpose-matrix/submissions/)
